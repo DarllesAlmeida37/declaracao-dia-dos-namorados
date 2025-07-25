@@ -5,9 +5,9 @@ function verificar(){
   let text1 = document.getElementById('text1')
   let pdata = document.getElementById('pdata')
 
-  if(dataEsc === '2025-06-10'){
+  if(dataEsc === '2025-07-25'){
     alert(`PARABEÉNS VOCÊ ACERTOOU!  Aperte "OK" Para Continuar!`)
-    foto1.src = 'foto1.png'
+    foto1.src = 'imagens/foto1.png' // falta alterar todas as fotos para EX: "imagens/foto2.png" E "imagens/foto3.png" E "imagens/foto4.png"
     text1.innerHTML = `<p>28/10/2014 - Foi onde tudo começou pra gente! 
     Foi quando decidimos que apartir dalí, andaríamos juntos, Lado a Lado!</p>`
 
